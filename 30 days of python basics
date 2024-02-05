@@ -1,0 +1,261 @@
+print("Hi Devika")#1st line
+
+print("hellodefgehtrb")
+
+print("Hi"  +name)
+
+print (len(name))
+print(name.find("a"))
+print(name.replace("a","t"))
+print((name.isalpha()))
+print(name*8)
+value=teek=333
+print(value)
+name, age, height="john",30,150
+print(age)''
+type cast
+ otp=352463
+ otp=str(otp)
+ print("your otp is "+otp)
+ print(type(otp))
+ count="30"
+ print(int(float((count)+5)
+ name="Anand"
+ day=15
+ year=2021dev
+
+print("Dear"+name+ "you have "+str(day)+"days leave of the year"+str(year))
+ Name=input("Enter your name:")
+ print("Hi"+ " "+Name)
+ Age=input("Enter your age:" )
+ print("your age is:"+Age)
+ a=4
+b=5
+print(a+b)
+ print((a-b))
+ print((a+b)*
+ print(abs(a))
+ print((a**4))
+import math #math module
+ a=4
+print(math.ceil(a))
+print((math.floor(a)))
+print(math.factorial(60))
+print(math.gcd(3,12,21))
+Age=int(input("Enter you age:"))
+ print("your Age is:"+str(Age))
+ if(Age<16):
+            print("you are  not elligible")
+ else:
+        print("you are eligible")
+ pwd=False
+ if pwd:
+    print("hu")
+else:
+  print("false")
+
+     print("bye")
+
+ if(num%10==0):
+            print(str(num)+"is  a multiple of 10")
+ else:
+     ("oops!not  a  multiple of 10")
+
+ num=int(input ("Enter your number:"))
+ if num >99 and num < 1000 and num%2 == 0:
+     print(str(num)  + "is a 3 digit even")
+ else:
+     print(str(num)+ "is a 3 didit odd")
+
+letter = ' '
+ while not letter.isalpha():
+          letter=input("Enter an alphabet:")
+ print("congrats you entered an alphabet"+" "+letter)
+print(1 to 100)
+ num=1
+ while num <= 100:
+    print (num)
+     num +=1
+ print("you can deviks")
+ for(num i in range(1:100))
+ for i in range(1,100+1):
+     print(i)
+ list=[1,2,3,4,5,6,7,8,9,10]
+
+ for i in list:
+     print(i*i)
+ Number game
+ import random
+ num = random.randint(1,20)
+ guess = int(input("can you guess  the number i am  thinking ?Its less than i am thinking"))
+ while num!=guess:
+     if guess>num:
+         print("Your guess is high!")
+     else:
+         print("Your guess is low!")
+     guess = int(input("Guess again:"))
+
+ print("Hurrah you won! ")
+ Star pyramid
+ num=int(input("Enter number of rows star to be printed:" ))
+ for i in range (0,num):
+     for j in range(0,num-i-1):
+         print (end =" ")
+     for j in range(0,i+1):
+         print("*",end=" " )
+     print("/n")
+
+ Cities=["Chennai","Madurai",8,"yelagiri"]
+ print(Cities[2])
+ Cities[3]="Coimbatore"
+ print(Cities)
+ for j in range(1,4):
+     for i in range(0,7):
+         print(i, end=" ")
+     print(' ')
+
+TN=["salem","Trichy","chennai",6,6,4,3,3,5,5,5,7,]
+AP=["telangana","jjhj"]
+ kk=["nrtkhgbm","jyi6yj]"]
+ INDIA=[TN,AP,kk]
+ print(INDIA)
+
+print(TN.count(6))
+------Tuple----
+ tup=(3,5,6,7)
+ print(tup)
+ for i in tup:
+     print (i)
+ if 3 in tup:
+     print("YES")
+ def suma(name):
+     print("You can "+name)
+     print ("tdy day 1")
+ name="Devika"
+ suma(name)
+ print("}}}}}"))
+ name="Madhu"
+ suma(name)
+ def sum(num1,num2):
+     return num1+num2
+ print(sum(3,3))
+
+ def printlist(list):
+     for i in list:
+         print(i.title())
+ girls=["dev","rohni","yuva","dfgd"]
+ printlist (girls)
+------factorial-------
+ def fact(num):
+     if num==0:
+         return 1
+     return num*fact(num-1)
+ print(fact(6))
+
+
+# #sum of two no
+num1=input("enter the 1st no")
+ num2=input("enter the 2nd no")11
+ sum=float(num1)+float(num2)
+ num1=input("Enter num :")
+ num2=input("Enter num2:")
+ maximum=max(num1,num2)
+ print(maximum)
+
+ p=25000
+ n=5
+ r=3
+ SI=p*n*r/100
+ print(str(SI))
+ num=int(input("Enter the number"))
+ sum=0
+ temp=num
+ while temp>0:
+     digits=temp%10
+     sum=sum+digits**3
+     temp=temp//10
+ if num==sum:
+     print("Deviks great the no isArmstrong")
+ else:
+
+     print("cool this is not u r armno")
+
+ class User:
+     self.name=None;
+     self.pwd=None;
+
+    def__init__(self,name,pwd )
+     def register(self):
+         print("Registering")
+     def login(self):
+         print ("Logging")
+ def __init__(self,username,pwd,course,fee):
+    super().__init__(username,pwd)
+    self.course=course
+    self.fee=fee
+ def greet(self):
+     print("Hi"+ self.user_name)
+ class vehicle:
+     def stat(selfself):
+         pass
+
+ class Bike(vehicle):
+     def start(selfself):
+         print("you are riding a bike....")
+
+ class Car(vehicle):
+     def start(self):
+         print('you are eiding a car')
+ print(name :="Varun")
+ def happy():
+     print("JOYOUS")
+
+ def sad():
+     print("alone")
+
+
+ def feeling(func):
+     func()
+ feeling(sad)
+ def addd_ten(num):
+     return num+10
+ print(addd_ten(9))
+
+ items=[(232,"dev",780),(87,"cherry",5486),(345,"joe",343)]
+  items.sort()
+ print(items)
+ items.sort(key=lambda item:item[2])
+ print(items)
+
+ students=[("maths","ani",80),("Bio","anand","65")]
+ print(students)
+ students.sort(key=lambda students:students[1])
+ print(students)
+
+val=[4,5,12,6,9]
+ val_sq=list(map(lambda x:x*x,val))
+def sq_num(num):
+    return num*num
+val_sq=list(map(sq_num,val))
+print(val_sq)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''
